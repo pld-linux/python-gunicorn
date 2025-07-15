@@ -86,7 +86,7 @@ aplikacje WSGI, Django i Paster.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch100 -p1
+%patch -P100 -p1
 
 %{__sed} -i -e 's/==/>=/; s/,<4\.4//' requirements_test.txt
 
