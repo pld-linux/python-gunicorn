@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Pythonowy serwer aplikacji WSGI
 Name:		python-%{module}
 # keep 19.x here for python2 support
 Version:	19.10.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Daemons
 #Source0Download: https://pypi.python.org/simple/gunicorn
